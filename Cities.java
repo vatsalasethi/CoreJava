@@ -10,14 +10,15 @@ public class Cities {
 		BufferedReader br = new BufferedReader(isr);
 		String myName="";
 		int count=0;
-		System.out.println("Enter your name");
+		System.out.println("Enter your city");
+		
 		while(!myName.equalsIgnoreCase("stop")){
 			myName= br.readLine();
 			count=count+1;
 		
 		}
 	
-		System.out.println("hey" + count + myName);
+		System.out.println(count );
 	}
 
 }
